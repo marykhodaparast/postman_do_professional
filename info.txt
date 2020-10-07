@@ -1,0 +1,13 @@
+How to work Professional in PostMan
+
+1. If you want to use Auth for example for route api/users/105/show and you need a token because only an
+authorized person can see the user... how can you add token? there are 3 ways
+   -  In Headers tab add parameter "Authorizaion" with value of Bearer {{ your token }}
+   -  In Authorization tab choose type:"Bearer token" and add your token 
+   -  In Environment click the eye beside it and add Environment and add your variables like the picture "addEnvironmentPostman.png"
+Now instead of using bookstoreapi.test/api/register you can write {{ url }}/api/register like the picture "url.png" and also instead
+of token you can use {{ token }}
+
+2. You can add a new Collection in the name of your project for example "book" and add your requests to it like the picture "NewCollection.png"
+
+
